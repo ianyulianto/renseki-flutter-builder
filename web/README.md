@@ -11,5 +11,7 @@ flutter build web
 ## How to use
 
 1. Clone your flutter web project (e.g. `/home/project`)
-2. Run: `$ docker run --rm -v /home/project:/project renseki-flutter:web-builder`
+2. Run: `$ docker run --rm -v /home/project:/project renseki-flutter:web-builder_${flutter_version}`
 3. Result: `/home/project/build/web`
+
+Check flutter version for further information. Change all symbol to underscores (_).
